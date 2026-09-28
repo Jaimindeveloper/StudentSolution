@@ -1,0 +1,23 @@
+﻿using Microsoft.EntityFrameworkCore;
+using ProductSolutions.Models;
+using ProductSolutions.Services;
+
+namespace ProductSolutions.Repository
+{
+    public class ProductRepository : IProductRepository
+    {
+        private readonly ApplicationDbContext _dbContext;
+        public ProductRepository(ApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        public async Task<List<Product>> GetAllProducts(int limit = 10, int offset = 20)
+        {
+            return await _dbContext.Products
+                .Skip(offset)
+                .Take(limit)
+                .ToListAsync();
+        }   
+    }
+}

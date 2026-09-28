@@ -1,0 +1,9 @@
+﻿using ProductSolutions.Models;
+
+namespace ProductSolutions.Repository
+{
+    public interface IProductRepository
+    {
+        public Task<List<Product>> GetAllProducts(int limit = 10, int offset = 20);
+    }
+}

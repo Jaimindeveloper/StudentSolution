@@ -1,0 +1,40 @@
+@model ProductSolutions.Models.Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h1 class="h3 mb-3">Delete Product</h1>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Name</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3">Brand</dt>
+            <dd class="col-sm-9">@Model.Brand</dd>
+
+            <dt class="col-sm-3">Category</dt>
+            <dd class="col-sm-9">@Model.Category</dd>
+
+            <dt class="col-sm-3">Price</dt>
+            <dd class="col-sm-9">@Model.Price.ToString("C")</dd>
+
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <dt class="col-sm-3">Image</dt>
+                <dd class="col-sm-9"><img src="@Model.ImageUrl" class="img-thumbnail" style="max-width:200px;" /></dd>
+            }
+        </dl>
+
+        <form asp-action="DeleteConfirmed" method="post">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-outline-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

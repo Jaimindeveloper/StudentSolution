@@ -1,0 +1,52 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using ProductSolutions.Repository;
+using ProductSolutions.Dtos;
+using ProductSolutions.Models;
+
+namespace ProductSolutions.Controllers
+{
+    public class ProductController : Controller
+    {
+        private readonly IProductRepository _productRepository;
+        public ProductController(IProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+        }
+        public async Task<IActionResult> Index(string? q, int page = 1, int pageSize = 10)
+        {
+            var result = await _productRepository.GetAllProducts(q, page, pageSize);
+            return View(result);
+        }
+        public async Task<IActionResult> Details(int id)
+        {
+            var product = await _productRepository.GetProductById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        public async Task<IActionResult> CreateData(CreateProductDto dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(dto);
+            }
+            var productData = new Product
+            {
+                Name = dto.Name,
+                Brand = dto.Brand,
+                Category = dto.Category,
+                Description = dto.Description,
+                Price = dto.Price,
+                CreatedAt = DateTime.UtcNow
+            };
+            await _productRepository.CreateProduct(productData);
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}

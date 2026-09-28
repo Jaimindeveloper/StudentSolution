@@ -1,0 +1,77 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using ProductSolutions.Repository;
+using ProductSolutions.Dtos;
+using ProductSolutions.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+
+namespace ProductSolutions.Controllers
+{
+    public class ProductController : Controller
+    {
+        private readonly IProductRepository _productRepository;
+        private readonly IWebHostEnvironment _env;
+
+        public ProductController(IProductRepository productRepository, IWebHostEnvironment env)
+        {
+            _productRepository = productRepository;
+            _env = env;
+        }
+        public async Task<IActionResult> Index(string? q, int page = 1, int pageSize = 10)
+        {
+            var result = await _productRepository.GetAllProducts(q, page, pageSize);
+            return View(result);
+        }
+        public async Task<IActionResult> Details(int id)
+        {
+            var product = await _productRepository.GetProductById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        public async Task<IActionResult> CreateData(CreateProductDto dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(dto);
+            }
+            var productData = new Product
+            {
+                Name = dto.Name,
+                Brand = dto.Brand,
+                Category = dto.Category,
+                Description = dto.Description,
+                Price = dto.Price,
+                CreatedAt = DateTime.UtcNow
+            };
+
+            // Handle uploaded image file
+            if (dto.ImageFile != null && dto.ImageFile.Length > 0)
+            {
+                var uploadsRoot = Path.Combine(_env.WebRootPath ?? "wwwroot", "product");
+                Directory.CreateDirectory(uploadsRoot);
+
+                var ext = Path.GetExtension(dto.ImageFile.FileName);
+                var fileName = $"{Guid.NewGuid()}{ext}";
+                var filePath = Path.Combine(uploadsRoot, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await dto.ImageFile.CopyToAsync(stream);
+                }
+
+                // Set public URL path
+                productData.ImageUrl = $"/product/{fileName}";
+            }
+
+            await _productRepository.CreateProduct(productData);
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}
