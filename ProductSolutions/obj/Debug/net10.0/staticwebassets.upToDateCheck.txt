@@ -72,6 +72,7 @@ wwwroot\product\mx-master-3s.jpg
 wwwroot\product\oneplus-13.jpg
 wwwroot\product\samsung-monitor.jpg
 wwwroot\product\sony-xm5.jpg
+wwwroot\uploads\products\c067d0a0-f55a-4d68-bec3-e9df0350f9f8.jpg
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\wwwroot\css\site.css
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\wwwroot\favicon.ico
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\wwwroot\js\site.js

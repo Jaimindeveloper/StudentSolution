@@ -27,9 +27,9 @@
             </div>
 
             <div class="col-md-6">
-                <label asp-for="Category" class="form-label"></label>
-                <input asp-for="Category" class="form-control" />
-                <span asp-validation-for="Category" class="text-danger"></span>
+                <label asp-for="CategoryIds" class="form-label">Categories</label>
+                <select asp-for="CategoryIds" asp-items="ViewBag.Categories" multiple class="form-select"></select>
+                <span asp-validation-for="CategoryIds" class="text-danger"></span>
             </div>
 
             <div class="col-md-6">

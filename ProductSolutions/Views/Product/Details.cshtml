@@ -31,15 +31,15 @@
         <div class="col-md-8">
             <div class="card-body">
                 <h2 class="card-title">@Model.Name</h2>
-                <p class="card-text text-muted mb-2">@Model.Brand @if(!string.IsNullOrEmpty(Model.Category)){<span>&middot; @Model.Category</span>}</p>
+                <p class="card-text text-muted mb-2">@Model.Brand @if(Model.Categories != null && Model.Categories.Any()){<span>&middot; @(string.Join(", ", Model.Categories.Select(c => c.Name)))</span>}</p>
                 <h4 class="text-primary">@Model.Price.ToString("C")</h4>
 
                 <dl class="row mt-4">
                     <dt class="col-sm-3">Description</dt>
                     <dd class="col-sm-9">@Model.Description</dd>
 
-                    <dt class="col-sm-3">Category</dt>
-                    <dd class="col-sm-9">@Model.Category</dd>
+                    <dt class="col-sm-3">Categories</dt>
+                    <dd class="col-sm-9">@(Model.Categories != null ? string.Join(", ", Model.Categories.Select(c => c.Name)) : string.Empty)</dd>
 
                     <dt class="col-sm-3">Brand</dt>
                     <dd class="col-sm-9">@Model.Brand</dd>

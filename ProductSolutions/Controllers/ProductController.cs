@@ -2,6 +2,9 @@
 using ProductSolutions.Repository;
 using ProductSolutions.Dtos;
 using ProductSolutions.Models;
+using ProductSolutions.Services;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using System.Text;
@@ -13,11 +16,13 @@ namespace ProductSolutions.Controllers
     {
         private readonly IProductRepository _productRepository;
         private readonly IWebHostEnvironment _env;
+        private readonly ApplicationDbContext _db;
 
-        public ProductController(IProductRepository productRepository, IWebHostEnvironment env)
+        public ProductController(IProductRepository productRepository, IWebHostEnvironment env, ApplicationDbContext db)
         {
             _productRepository = productRepository;
             _env = env;
+            _db = db;
         }
         public async Task<IActionResult> Index(string? q, int page = 1, int pageSize = 10)
         {
@@ -32,7 +37,7 @@ namespace ProductSolutions.Controllers
 
             var sb = new StringBuilder();
             // Header
-            sb.AppendLine("Id,Name,Brand,Category,Price,Description,ImageUrl,CreatedAt");
+            sb.AppendLine("Id,Name,Brand,Categories,Price,Description,ImageUrl,CreatedAt");
 
             string Escape(string? s)
             {
@@ -51,7 +56,7 @@ namespace ProductSolutions.Controllers
                     p.Id.ToString(CultureInfo.InvariantCulture),
                     Escape(p.Name),
                     Escape(p.Brand),
-                    Escape(p.Category),
+                    Escape(string.Join(";", p.Categories.Select(c => c.Name))),
                     p.Price.ToString(CultureInfo.InvariantCulture),
                     Escape(p.Description),
                     Escape(p.ImageUrl),
@@ -75,23 +80,32 @@ namespace ProductSolutions.Controllers
         }
         public IActionResult Create()
         {
+            // provide categories for selection
+            ViewBag.Categories = new SelectList(_db.Categories.OrderBy(c => c.Name).ToList(), "Id", "Name");
             return View();
         }
         public async Task<IActionResult> CreateData(CreateProductDto dto)
         {
             if (!ModelState.IsValid)
             {
+                ViewBag.Categories = new SelectList(_db.Categories.OrderBy(c => c.Name).ToList(), "Id", "Name", dto.CategoryIds);
                 return View(dto);
             }
             var productData = new Product
             {
                 Name = dto.Name,
                 Brand = dto.Brand,
-                Category = dto.Category,
                 Description = dto.Description,
                 Price = dto.Price,
                 CreatedAt = DateTime.UtcNow
             };
+
+            // assign selected categories
+            if (dto.CategoryIds != null && dto.CategoryIds.Any())
+            {
+                var cats = await _db.Categories.Where(c => dto.CategoryIds.Contains(c.Id)).ToListAsync();
+                foreach (var c in cats) productData.Categories.Add(c);
+            }
 
             // Handle uploaded image file
             if (dto.ImageFile != null && dto.ImageFile.Length > 0)
@@ -127,11 +141,13 @@ namespace ProductSolutions.Controllers
                 Id = product.Id,
                 Name = product.Name,
                 Brand = product.Brand,
-                Category = product.Category,
                 Description = product.Description,
                 Price = product.Price,
-                ImageUrl = product.ImageUrl
+                ImageUrl = product.ImageUrl,
+                CategoryIds = product.Categories?.Select(c => c.Id).ToList() ?? new List<int>()
             };
+
+            ViewBag.Categories = new SelectList(_db.Categories.OrderBy(c => c.Name).ToList(), "Id", "Name", dto.CategoryIds);
 
             return View(dto);
         }
@@ -145,13 +161,12 @@ namespace ProductSolutions.Controllers
             {
                 return View("Edit", dto);
             }
-
-            var existing = await _productRepository.GetProductById(dto.Id);
+            // Load product with categories using the controller's DbContext to ensure tracked changes
+            var existing = await _db.Products.Include(p => p.Categories).FirstOrDefaultAsync(p => p.Id == dto.Id);
             if (existing == null) return NotFound();
 
             existing.Name = dto.Name;
             existing.Brand = dto.Brand;
-            existing.Category = dto.Category;
             existing.Description = dto.Description;
             existing.Price = dto.Price;
 
@@ -183,8 +198,15 @@ namespace ProductSolutions.Controllers
                 existing.ImageUrl = $"/uploads/products/{fileName}";
             }
 
-            var updated = await _productRepository.UpdateProduct(dto.Id, existing);
-            if (updated == null) return NotFound();
+            // update categories selection: load selected categories and replace collection
+            if (dto.CategoryIds != null)
+            {
+                var cats = await _db.Categories.Where(c => dto.CategoryIds.Contains(c.Id)).ToListAsync();
+                existing.Categories.Clear();
+                foreach (var c in cats) existing.Categories.Add(c);
+            }
+
+            await _db.SaveChangesAsync();
 
             return RedirectToAction(nameof(Details), new { id = dto.Id });
         }

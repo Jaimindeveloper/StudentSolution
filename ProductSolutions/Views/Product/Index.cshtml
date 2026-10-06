@@ -53,7 +53,7 @@ else
                         </td>
                         <td>@item.Name</td>
                         <td>@item.Brand</td>
-                        <td>@item.Category</td>
+                        <td>@(item.Categories != null ? string.Join(", ", item.Categories.Select(c => c.Name)) : string.Empty)</td>
                         <td class="text-end">@item.Price.ToString("C")</td>
                         <td>@item.CreatedAt.ToString("yyyy-MM-dd")</td>
                         <td>

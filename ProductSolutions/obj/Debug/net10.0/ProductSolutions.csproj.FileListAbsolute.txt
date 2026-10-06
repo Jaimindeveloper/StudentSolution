@@ -230,3 +230,4 @@ D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\obj\Debug\net10.0\refint
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\obj\Debug\net10.0\ProductSolutions.pdb
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\obj\Debug\net10.0\ProductSolutions.genruntimeconfig.cache
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\obj\Debug\net10.0\ref\ProductSolutions.dll
+D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\obj\Debug\net10.0\ProductSolutions.sourcelink.json

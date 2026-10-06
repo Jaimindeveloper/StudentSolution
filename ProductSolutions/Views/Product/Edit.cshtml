@@ -25,12 +25,6 @@
             </div>
 
             <div class="col-md-6">
-                <label asp-for="Category" class="form-label"></label>
-                <input asp-for="Category" class="form-control" />
-                <span asp-validation-for="Category" class="text-danger"></span>
-            </div>
-
-            <div class="col-md-6">
                 <label asp-for="Price" class="form-label"></label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
@@ -43,6 +37,9 @@
             </div>
 
             <div class="col-md-6">
+                <label asp-for="CategoryIds" class="form-label">Categories</label>
+                <select asp-for="CategoryIds" asp-items="ViewBag.Categories" multiple class="form-select mb-3"></select>
+
                 <label class="form-label">Current Image</label>
                 @if (!string.IsNullOrEmpty(Model.ImageUrl))
                 {

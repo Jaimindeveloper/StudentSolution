@@ -10,8 +10,8 @@ namespace ProductSolutions.Dtos
         public string Name { get; set; } = string.Empty;
         [Required, MinLength(2), MaxLength(100)]
         public string Brand { get; set; } = string.Empty;
-        [Required, MinLength(2), MaxLength(100)]
-        public string Category { get; set; } = string.Empty;
+        // Multiple categories may be assigned to a product
+        public List<int> CategoryIds { get; set; } = new List<int>();
         [Required, MinLength(2), MaxLength(250)]
         public string Description { get; set; } = string.Empty;
         [Required, Range(0.01, double.MaxValue, ErrorMessage = "Price must be a positive value.")]

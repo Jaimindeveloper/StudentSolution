@@ -10,8 +10,8 @@ namespace ProductSolutions.Models
         public string Name { get; set; } = "";
         [MaxLength(100)]
         public string Brand { get; set; } = "";
-        [MaxLength(100)]
-        public string Category { get; set; } = "";
+        // Categories - many-to-many relationship
+        public ICollection<Category> Categories { get; set; } = new List<Category>();
         [Precision(18, 2)]
         public decimal Price { get; set; }
         [MaxLength(250)]

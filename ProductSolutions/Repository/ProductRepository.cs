@@ -17,15 +17,15 @@ namespace ProductSolutions.Repository
             if (page < 1) page = 1;
             if (pageSize < 1) pageSize = 10;
 
-            var q = _dbContext.Products.AsQueryable();
+            var q = _dbContext.Products.Include(p => p.Categories).AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(query))
             {
                 var normalized = query.Trim().ToLowerInvariant();
                 q = q.Where(p => p.Name.ToLower().Contains(normalized)
                                || p.Brand.ToLower().Contains(normalized)
-                               || p.Category.ToLower().Contains(normalized)
-                               || p.Description.ToLower().Contains(normalized));
+                               || p.Description.ToLower().Contains(normalized)
+                               || p.Categories.Any(c => c.Name.ToLower().Contains(normalized)));
             }
 
             var total = await q.CountAsync();
@@ -47,20 +47,20 @@ namespace ProductSolutions.Repository
         }
         public async Task<Product?> GetProductById(int id)
         {
-            return await _dbContext.Products.FirstOrDefaultAsync(p => p.Id == id);
+            return await _dbContext.Products.Include(p => p.Categories).FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task<List<Product>> GetProductsForExport(string? query = null)
         {
-            var q = _dbContext.Products.AsQueryable();
+            var q = _dbContext.Products.Include(p => p.Categories).AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(query))
             {
                 var normalized = query.Trim().ToLowerInvariant();
                 q = q.Where(p => p.Name.ToLower().Contains(normalized)
                                || p.Brand.ToLower().Contains(normalized)
-                               || p.Category.ToLower().Contains(normalized)
-                               || p.Description.ToLower().Contains(normalized));
+                               || p.Description.ToLower().Contains(normalized)
+                               || p.Categories.Any(c => c.Name.ToLower().Contains(normalized)));
             }
 
             return await q.OrderByDescending(p => p.CreatedAt).ToListAsync();
@@ -75,15 +75,28 @@ namespace ProductSolutions.Repository
 
         public async Task<Product?> UpdateProduct(int id, Product product)
         {
-            var existingProduct = await _dbContext.Products.FindAsync(id);
+            var existingProduct = await _dbContext.Products.Include(p => p.Categories).FirstOrDefaultAsync(p => p.Id == id);
             if (existingProduct == null) return null;
 
             existingProduct.Name = product.Name;
             existingProduct.Brand = product.Brand;
-            existingProduct.Category = product.Category;
             existingProduct.Description = product.Description;
             existingProduct.ImageUrl = product.ImageUrl;
             existingProduct.Price = product.Price;
+
+            // Update categories: clear and re-add by id to ensure tracked entities
+            existingProduct.Categories.Clear();
+            if (product.Categories != null)
+            {
+                foreach (var cat in product.Categories)
+                {
+                    var tracked = await _dbContext.Categories.FindAsync(cat.Id);
+                    if (tracked != null)
+                    {
+                        existingProduct.Categories.Add(tracked);
+                    }
+                }
+            }
 
             await _dbContext.SaveChangesAsync();
             return existingProduct;
@@ -91,8 +104,15 @@ namespace ProductSolutions.Repository
 
         public async Task<bool> DeleteProduct(int id)
         {
-            var product = await _dbContext.Products.FindAsync(id);
+            // Load the product with categories so we can remove the relationship entries
+            var product = await _dbContext.Products.Include(p => p.Categories).FirstOrDefaultAsync(p => p.Id == id);
             if (product == null) return false;
+
+            // Clear category relations (only join entries removed). Do not delete Category entities.
+            if (product.Categories != null && product.Categories.Any())
+            {
+                product.Categories.Clear();
+            }
 
             _dbContext.Products.Remove(product);
             await _dbContext.SaveChangesAsync();

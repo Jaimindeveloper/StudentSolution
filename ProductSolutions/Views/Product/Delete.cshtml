@@ -15,8 +15,8 @@
             <dt class="col-sm-3">Brand</dt>
             <dd class="col-sm-9">@Model.Brand</dd>
 
-            <dt class="col-sm-3">Category</dt>
-            <dd class="col-sm-9">@Model.Category</dd>
+            <dt class="col-sm-3">Categories</dt>
+            <dd class="col-sm-9">@(Model.Categories != null ? string.Join(", ", Model.Categories.Select(c => c.Name)) : string.Empty)</dd>
 
             <dt class="col-sm-3">Price</dt>
             <dd class="col-sm-9">@Model.Price.ToString("C")</dd>
