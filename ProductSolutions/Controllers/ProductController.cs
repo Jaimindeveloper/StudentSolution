@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using System.Text;
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ProductSolutions.Controllers
 {
@@ -24,6 +25,7 @@ namespace ProductSolutions.Controllers
             _env = env;
             _db = db;
         }
+        [Authorize]
         public async Task<IActionResult> Index(string? q, int page = 1, int pageSize = 10)
         {
             var result = await _productRepository.GetAllProducts(q, page, pageSize);

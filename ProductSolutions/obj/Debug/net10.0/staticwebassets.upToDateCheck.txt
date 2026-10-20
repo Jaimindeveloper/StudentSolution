@@ -63,7 +63,6 @@ wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\product\airpods-pro-2.jpg
 wwwroot\product\dell-inspiron.jpg
-wwwroot\product\f28635b6-dd78-4af9-8308-22ed9a2549b7.jpg
 wwwroot\product\galaxy-s25.jpg
 wwwroot\product\hp-keyboard.jpg
 wwwroot\product\iphone-16.jpg
@@ -72,6 +71,7 @@ wwwroot\product\mx-master-3s.jpg
 wwwroot\product\oneplus-13.jpg
 wwwroot\product\samsung-monitor.jpg
 wwwroot\product\sony-xm5.jpg
+wwwroot\product\f28635b6-dd78-4af9-8308-22ed9a2549b7.jpg
 wwwroot\uploads\products\c067d0a0-f55a-4d68-bec3-e9df0350f9f8.jpg
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\wwwroot\css\site.css
 D:\AspDotNet_Projects\ProductSolutions\ProductSolutions\wwwroot\favicon.ico

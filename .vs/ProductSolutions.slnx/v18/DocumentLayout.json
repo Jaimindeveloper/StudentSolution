@@ -3,28 +3,88 @@
   "WorkspaceRootPath": "D:\\AspDotNet_Projects\\ProductSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\services\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\services\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\copilot-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\02-validate-add-migration\\task.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\02-validate-add-migration\\task.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261020104949_AccountMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductSolutions\\Migrations\\20261020104949_AccountMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\task.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\task.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\plan.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\plan.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\assessment.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\assessment.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\migrations\\20261005175637_addcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\migrations\\20261005175637_addcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\services\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\services\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -71,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,16 +139,8 @@
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\migrations\\20261005175637_addcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\migrations\\20261005175637_addcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,6 +157,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\scenario-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\scenario-instructions.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\productsolutions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\productsolutions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\progress-details.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\progress-details.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|d:\\aspdotnet_projects\\productsolutions\\productsolutions\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{921932EB-F37C-D311-8104-8EAEAD4A598D}|ProductSolutions\\ProductSolutions.csproj|solutionrelative:productsolutions\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,11 +190,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\Product\\Index.cshtml",
@@ -135,37 +203,323 @@
               "ViewState": "AgIAAC0AAAAAAAAAAAAnwA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-27T07:01:48.79Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ProductSolutions\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ProductSolutions\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-06T18:22:46.449Z",
+              "DocumentIndex": 5,
+              "Title": "copilot-instructions.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\copilot-instructions.md",
+              "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\copilot-instructions.md",
+              "RelativeToolTip": ".github\\copilot-instructions.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:52:03.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "ProductSolutions\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProductSolutions\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-06T18:22:01.985Z",
+              "WhenOpened": "2026-09-27T07:33:55.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProductSolutions\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T10:31:53.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductSolutions\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wBwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:00:11.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Program.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Program.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Program.cs",
+              "RelativeToolTip": "ProductSolutions\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:54:24.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_AccountLayout.cshtml",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Shared\\_AccountLayout.cshtml",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeToolTip": "ProductSolutions\\Views\\Shared\\_AccountLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T10:54:43.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "ProductSolutions\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T10:54:37.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ProductSolutions\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T10:54:51.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ProductSolutions\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-20T10:55:00.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "task.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\02-validate-add-migration\\task.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\02-validate-add-migration\\task.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\02-validate-add-migration\\task.md",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\02-validate-add-migration\\task.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:51:46.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20261020104949_AccountMigration.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261020104949_AccountMigration.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Migrations\\20261020104949_AccountMigration.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261020104949_AccountMigration.cs",
+              "RelativeToolTip": "ProductSolutions\\Migrations\\20261020104949_AccountMigration.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T10:49:49.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "progress-details.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\progress-details.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\progress-details.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\progress-details.md",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\progress-details.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:49:26.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductSolutions\\appsettings.json",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\appsettings.json",
+              "RelativeToolTip": "ProductSolutions\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-23T07:39:15.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "task.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\task.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\task.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\task.md",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks\\01-pin-pkcs-package\\task.md",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:46:46.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "plan.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\plan.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\plan.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\plan.md",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\plan.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:45:28.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductSolutions",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\ProductSolutions.csproj",
+              "RelativeDocumentMoniker": "ProductSolutions\\ProductSolutions.csproj",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\ProductSolutions.csproj",
+              "RelativeToolTip": "ProductSolutions\\ProductSolutions.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-20T10:46:54.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tasks.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks.md",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\tasks.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:45:32.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "assessment.md [Preview]",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\assessment.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\assessment.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\assessment.md [Preview]",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\assessment.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:44:48.515Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "scenario-instructions.md",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\scenario-instructions.md",
+              "RelativeDocumentMoniker": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\scenario-instructions.md",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\.github\\upgrades\\scenarios\\nuget-package-upgrade\\scenario-instructions.md",
+              "RelativeToolTip": ".github\\upgrades\\scenarios\\nuget-package-upgrade\\scenario-instructions.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-20T10:44:16.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20261005175637_AddCategories.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
+              "RelativeToolTip": "ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwD0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T17:56:38.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "ProductSolutions\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T10:28:35.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ProductSolutions\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T10:21:26.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProductSolutions\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:56:10.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T06:54:09.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Middleware\\GlobalExceptionMiddleware.cs",
@@ -173,25 +527,35 @@
               "RelativeToolTip": "ProductSolutions\\Middleware\\GlobalExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T18:18:38.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T18:18:38.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ProductSolutions\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ProductSolutions\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T07:00:11.838Z",
-              "EditorCaption": ""
+              "DocumentIndex": 20,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ProductSolutions\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-06T18:22:01.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProductSolutions\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProductSolutions\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-06T18:22:46.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Repository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Repository\\IProductRepository.cs",
@@ -203,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Repository\\ProductRepository.cs",
@@ -211,12 +575,11 @@
               "RelativeToolTip": "ProductSolutions\\Repository\\ProductRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIA5wHUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T07:05:06.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T07:05:06.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\_ViewStart.cshtml",
@@ -228,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\_ViewImports.cshtml",
@@ -240,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\Product\\Edit.cshtml",
@@ -252,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -264,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\Product\\Details.cshtml",
@@ -276,20 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Program.cs",
-              "RelativeDocumentMoniker": "ProductSolutions\\Program.cs",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Program.cs",
-              "RelativeToolTip": "ProductSolutions\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:54:24.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\Product\\Create.cshtml",
@@ -301,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\Product\\Delete.cshtml",
@@ -313,19 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ProductSolutions\\Services\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ProductSolutions\\Services\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-25T10:56:10.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Models\\Product.cs",
@@ -337,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "UpdateProductDto.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Dtos\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Dtos\\UpdateProductDto.cs",
@@ -349,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Dtos\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Dtos\\CreateProductDto.cs",
@@ -361,32 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContextFactory.cs",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
-              "RelativeDocumentMoniker": "ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
-              "RelativeToolTip": "ProductSolutions\\Services\\ApplicationDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T06:54:09.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20261005175637_AddCategories.cs",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
-              "RelativeDocumentMoniker": "ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
-              "RelativeToolTip": "ProductSolutions\\Migrations\\20261005175637_AddCategories.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwD0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T17:56:38.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Models\\Category.cs",
@@ -398,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Repository\\PagedResult.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Repository\\PagedResult.cs",
@@ -410,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProductSolutions\\Views\\Home\\Index.cshtml",
@@ -422,19 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProductSolutions\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProductSolutions\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-27T07:33:55.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "20260927065616_ProductMigration.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Migrations\\20260927065616_ProductMigration.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Migrations\\20260927065616_ProductMigration.cs",
@@ -446,20 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\appsettings.json",
-              "RelativeDocumentMoniker": "ProductSolutions\\appsettings.json",
-              "ToolTip": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\appsettings.json",
-              "RelativeToolTip": "ProductSolutions\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-23T07:39:15.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\AspDotNet_Projects\\ProductSolutions\\ProductSolutions\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProductSolutions\\Controllers\\HomeController.cs",
